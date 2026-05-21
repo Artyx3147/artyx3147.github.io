@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.logo-principal {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cuadrado-decorativo {
+    width: 12px;
+    height: 12px;
+    background-color: #0044ff;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.presentacion-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: linear-gradient(to right, #e3dcd7 35%, #f0eeff 35%);
+}
+
+.contenedor-presentacion {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+
+.tarjeta-perfil {
+    background: #fdfaf8;
+    padding: 40px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.05);
+    text-align: center;
+    width: 350px;
+}
+
+.espacio-foto-perfil {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+}
+
+.linea-separadora {
+    width: 40px;
+    height: 2px;
+    background-color: #0044ff;
+    margin: 15px auto;
+}
+
+.titulo-profesional {
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.texto-bienvenida {
+    padding-left: 60px;
+    width: 650px;
+}
+
+.texto-bienvenida h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.texto-bienvenida h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.botones-accion {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid #0044ff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.boton-primario {
+    background: #0044ff;
+    color: white;
+}
+
+.boton-secundario {
+    background: transparent;
+    color: black;
+    border-color: black;
+}
+
+.parrafo-descripcion {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background: white;
+    font-size: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.bloque-contacto-pie {
+    display: flex;
+    gap: 40px;
+}
+
+.enlaces-redes-pie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

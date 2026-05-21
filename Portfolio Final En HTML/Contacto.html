@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Contacto</title>
+    <link rel="stylesheet" href="/styles/ContactoStyle.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-principal">
+            <span class="cuadrado-decorativo"></span>
+            <strong>Arturo Martín de la Sierra</strong> / Técnico de DAM
+        </div>
+        <nav>
+            <a href="/SobreMi.html">SOBRE MÍ</a>
+            <a href="/Curriculum.html">CURRÍCULUM</a>
+            <a href="/Proyectos.html">PROYECTOS</a>
+            <a href="/Contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main class="zona-contacto">
+        <section class="bloque-titulo-contacto">
+            <h1 class="titulo-seccion-contacto">
+                <span class="cuadrado-titulo"></span>Contacto
+            </h1>
+            <p class="subtitulo-contacto">¿Tienes algún proyecto en mente o una propuesta de trabajo? ¡Escríbeme!</p>
+        </section>
+
+        <section class="contenedor-formulario">
+            <form action="https://formsubmit.co/arturomsg07@gmail.com" method="POST" class="formulario-contacto">
+                
+                <div class="grupo-formulario">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="tu@email.com" required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje..." required>
+                </div>
+
+                <div class="grupo-formulario">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="boton-enviar">ENVIAR MENSAJE</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="pie-izquierdo">
+            <p class="enlace-privacidad">Política de Privacidad</p>
+            <p>&copy; 2026 Creado por Arturo Martín de la Sierra García</p>
+        </div>
+        <div class="pie-derecho">
+            <div>
+                <strong>Teléfono</strong>
+                <p class="texto-contacto-pie">+34 620 22 01 03</p>
+            </div>
+            <div>
+                <strong>Correo</strong>
+                <p class="texto-contacto-pie">arturomsg07@gmail.com</p>
+            </div>
+            <div>
+                <strong>Redes</strong>
+                <div class="contenedor-redes-pie">
+                    <a href="https://www.linkedin.com/in/arturo-martin-de-la-sierra3147" class="enlace-red-social">LinkedIn</a>
+                    <img src="/Img/LinkedIn_icon.svg.png" width="20" height="20" alt="Logo de LinkedIn" />
+                    <a href="https://github.com/Artyx3147" class="enlace-red-social margen-github">GitHub</a>
+                    <img src="/Img/2111432.png" width="20" height="20" alt="Logo de GitHub" />
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
