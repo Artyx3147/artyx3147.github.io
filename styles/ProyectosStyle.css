@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.logo-principal {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cuadrado-decorativo {
+    width: 12px;
+    height: 12px;
+    background-color: #0044ff;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.zona-proyectos {
+    background-color: #e5dacb;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloque-titulo-proyectos {
+    width: 760px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo-seccion-proyectos {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.cuadrado-titulo {
+    width: 16px;
+    height: 16px;
+    background-color: #0044ff; 
+    display: inline-block;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+    width: 760px;
+}
+
+.tarjeta-proyecto {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    height: 320px;
+}
+
+.detalles-proyecto {
+    width: 380px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nombre-proyecto {
+    font-size: 20px;
+    color: #0044ff; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.linea-azul-decorativa {
+    width: 4px;
+    height: 18px;
+    background-color: #0044ff;
+    display: inline-block;
+}
+
+.estado-proyecto {
+    font-size: 13px;
+    color: #000000;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.descripcion-proyecto {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.envoltura-imagen-proyecto {
+    width: 380px;
+    background-color: #f4f4f4; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-proyecto {
+    width: 380px;
+    height: 320px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    background: white;
+    font-size: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.pie-derecho {
+    display: flex;
+    gap: 40px;
+}
+
+.contenedor-redes-pie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
